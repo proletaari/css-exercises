@@ -7,7 +7,6 @@
 
 .left-links {
   display: flex;
-  justify-content: space-between;
 }
 
 .logo {
@@ -20,12 +19,15 @@
 
 .right-links {
   display: flex;
-  justify-content: space-between;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+}
+
+li {
+  display: inline;
 }
 
 a {
